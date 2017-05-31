@@ -18,7 +18,7 @@ When a new URL is discovered our tools extract data about the page including dat
 
 Then we process the article. First we identify the body text and pass it to a natural language processor to extract the terms mentioned in the text. We differentiate between a thing that is mentioned vs what the article is about by separating out the terms which are in the headline, standfirst and first paragraph from the other mentioned terms. We also run the body text through sentiment analysis tools. 
 
-Processing is handled by tools developed inhouse, [Google's NLP services](https://cloud.google.com/natural-language/), and a service called [Aylien[(http://aylien.com/). 
+Processing is handled by tools developed inhouse, [Google's NLP services](https://cloud.google.com/natural-language/), and a service called [Aylien](http://aylien.com/). 
 
 Next we track performance. We look at engagement on Facebook while simultaneously updating promotion data with each publisher scan. We use Facebook's graph API to collect social activity for each URL. Facebook returns the number of shares, number of comments and number of reactions. We collect this data on a regular basis until the sharing activity appears to stop.
 
