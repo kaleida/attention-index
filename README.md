@@ -2,7 +2,11 @@
 
 ## SUMMARY ##
 
-**Kaleida's Attention Index** is a measure of observed interest in subjects. The index is derived using publicly available data from global news media and social platforms. We use a range of tools to process the data including our own homegrown applications and 3rd party data processing services.
+**Kaleida's Attention Index** is a measure of observed interest in subjects. The index is derived using publicly available data from global news media and social platforms. 
+![Kaleida's Attention Index](/kaleida-attention-index-venn-diagram.png)
+
+Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services as described below. 
+![Factors informing the attention index](/kaleida-attention-index-data-factors-chart.png)
 
 The **Attention Index** data is made available by Kaleida Networks Ltd. to the public under a Creative Commons license ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)) including permission for commercial use. You are explicitly encouraged to use and share the data. We just ask that you give us attribution. And feel free to [contact us](matt@kaleida.com) if you have any questions about the data or usage.
 
