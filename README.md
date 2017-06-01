@@ -45,9 +45,9 @@ More details about the fields available, descriptions of the data, and sample ou
 | fb_shares |  number of shares of this url in Facebook posts according to Facebook's API. subset of engagements.|
 | publisher_name | name of the publisher of this article.|
 | publisher_id | unique identifier of the publisher of this article.|
-| num_articles_on_front | number of articles that appear on the publisher's web site home page | 
 | mins_as_lead | number of minutes this article appeared on the publisher's featured position on the web site home page. | 
 | mins_on_front | number of minutes this article appeared anywhere on the publisher's web site home page | 
-| fb_brand_page_likes | number of likes to the publisher's Facebook brand page | 
+| num_articles_on_front | if `mins_on_front` > 0, average number of articles that appeared on the publisher's web site home page while this article was present there  | 
 | fb_brand_page | this article was promoted by the publisher on the publisher's Facebook brand page. *true/false* | 
+| fb_brand_page_likes | if `fb_brand_page` is true, number of likes to the publisher's Facebook brand page at the time of posting | 
 | alexa_rank | Alexa global rank for this publisher | 
