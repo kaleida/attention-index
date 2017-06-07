@@ -6,7 +6,7 @@
 
 Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services as described below.
 
-<img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-data-factors-chart.png" width="300">
+<img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-data-factors-chart.png">
 
 We've published our work in a python notebook. That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.
 | <img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-facebook-engagements-formula.png"> |
