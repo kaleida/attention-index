@@ -8,7 +8,7 @@ Publisher data and social data are combined to arrive at an overall Attention Sc
 
 <img src="images/kaleida-attention-index-data-factors-chart.png">
 
-We've published our work in a [python jupyter notebook](data/attention-index.ipynb). That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.
+We've published our work in a [python jupyter notebook](http://nbviewer.jupyter.org/github/kaleida/attention-index/blob/master/data/attention-index.ipynb). That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.
 
 <img src="images/kaleida-attention-index-facebook-engagements-formula.png">
 <img src="images/kaleida-attention-index-lognormal-engagements.png">
