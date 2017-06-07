@@ -2,11 +2,15 @@
 
 ## SUMMARY ##
 
-**Kaleida's Attention Index** is a measure of observed interest in subjects. The index is derived using publicly available data from global news media and social platforms. 
-![Kaleida's Attention Index](/kaleida-attention-index-venn-diagram.png)
+<img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-venn-diagram.png" width="300" align="right" hspace="10">**Kaleida's Attention Index** is a measure of observed interest in subjects. The index is derived using publicly available data from global news media and social platforms.
 
-Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services as described below. 
-![Factors informing the attention index](/kaleida-attention-index-data-factors-chart.png)
+Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services as described below.
+
+<img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-data-factors-chart.png" width="300">
+
+We've published our work in a python notebook. That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.
+| <img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-facebook-engagements-formula.png"> |
+| <img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-lognormal-engagements.png"> |
 
 The **Attention Index** data is made available by Kaleida Networks Ltd. to the public under a Creative Commons license ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)) including permission for commercial use. You are explicitly encouraged to use and share the data. We just ask that you give us attribution. And feel free to [contact us](matt@kaleida.com) if you have any questions about the data or usage.
 
@@ -54,3 +58,9 @@ More details about the fields available, descriptions of the data, and sample ou
 | fb_brand_page | this article was promoted by the publisher on the publisher's Facebook brand page. *true/false* |
 | fb_brand_page_likes | if `fb_brand_page` is true, number of likes to the publisher's Facebook brand page at the time of posting. |
 | alexa_rank | Alexa global rank for this publisher. |
+| **response_score** | Facebook engagements scored on a log normal scale. *max = 50* |
+| lead_score | score of value to publisher using `mins_as_lead` and weighted by `alexa_rank`.  *max = 20* |
+| front_score | score of value to publisher using `mins_on_front` and weighted by `alexa_rank`.  *max = 15* |
+| facebook_promotion_score | score of value of promotion on Facebook using `fb_brand_page` and weighted by `fb_brand_page_likes`.  *max = 15* |
+| **promotion_score** | score of all the publisher promotion activities for this article = `lead_score` + `front_score` + `facebook_promotion_score`. *max = 50* |
+| **attention_index** | Total attention score for this article = `response_score` + `promotion_score`. *max = 100* |
