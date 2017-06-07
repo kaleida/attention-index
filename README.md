@@ -13,7 +13,7 @@ We've published our work in a [python jupyter notebook](data/attention-index.ipy
 <img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-facebook-engagements-formula.png">
 <img src="https://raw.githubusercontent.com/kaleida/attention-index/master/kaleida-attention-index-lognormal-engagements.png">
 
-The **Attention Index** data is made available by Kaleida Networks Ltd. to the public under a Creative Commons license ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)) including permission for commercial use. You are explicitly encouraged to use and share the data. We just ask that you give us attribution. And feel free to [contact us](matt@kaleida.com) if you have any questions about the data or usage.
+The **Attention Index** data is made available by Kaleida Networks Ltd. to the public under a Creative Commons license ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)) including permission for commercial use. You are explicitly encouraged to use and share the data. We just ask that you give us attribution. And feel free to [contact us](mailto:matt@kaleida.com) if you have any questions about the data or usage.
 
 ## METHODOLOGY ##
 
