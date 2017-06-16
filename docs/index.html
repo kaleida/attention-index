@@ -10,50 +10,109 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <style>
+  /** { border-radius: 0 !important; }*/
+  .header { background-color: #0084cc;}
+  .logo {margin: 20px; height:40px;}
+  .navbar-nav { margin: 20px; font-weight: bold; font-size: 1.2em; }
+  .navbar-nav a { color:#ffffff; }
+  .btn {background-color: #0084cc;border-color: white; none;color: white;}
+  .jumbotron {background-color: #edf3f7;}
+  .footer { background-color:#edf3f7; border-top:6px solid #00d4dc; }
+  .footer-box { padding: 40px;}
+  .footer-list { list-style: none; font-weight: bold;line-height: 2em;padding-left:0; }
+  </style>
 </head>
 <body>
 
-    <div class="container">
-      <div class="header clearfix">
+    <div class="container-fluid header">
         <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="https://www.kaleida.com/aboutus">About Kaleida</a></li>
-            <li role="presentation"><a href="https://www.kaleida.com/aboutus">Contact</a></li>
+          <img src="../images/Kaleida_logo_white.png" class="logo">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.kaleida.com/aboutus">About Kaleida</a></li>
+            <li><a href="https://www.kaleida.com/aboutus">Contact</a></li>
           </ul>
         </nav>
-        <h3 class="text-muted">A Kaleida Open Source Project</h3>
-      </div>
+    </div>
 
+    <div class="container">
       <div class="jumbotron">
         <h1>The Attention Index</h1>
-        <p class="lead">Kaleida's Attention Index is a measure of observed interest in subjects. The index is derived using publicly available data from global news media and social platforms.</p>
-        <p><a class="btn btn-lg btn-success" href="../data" role="button">Download Data</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>How it Works</h4>
-          <p>Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services.</p>
-
-          <h4>Documentation</h4>
-          <p>We've published our work in a [python jupyter notebook](http://nbviewer.jupyter.org/github/kaleida/attention-index/blob/master/data/attention-index.ipynb). That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.</p>
-
-          <p>You are encouraged to apply our approach to developing the Attention Index. The <a href="../README.md">methodology</a> provides detail about what the data means, how it was collected and what we're doing with it.</p>
-
-          <h4>Creative Commons</h4>
-          <p>The <strong>Attention Index</strong> data is made available by Kaleida Networks Ltd. to the public under a Creative Commons license ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)) including permission for commercial use. You are explicitly encouraged to use and share the data. We just ask that you give us attribution. And feel free to [contact us](mailto:matt@kaleida.com) if you have any questions about the data or usage.</p>
-
+        <p class="lead">Kaleida's Attention Index measures and ranks activity across the media ecosystem. The data and methodology are openly available with a Creative Commons license. </p>
+        <div class="row center">
+          <div class="col-md-3"></div>
+          <div class="col-md-6"><a class="btn btn-lg btn-info" href="../data" role="button">Download Data</a><a class="btn btn-lg btn-info" href="../docs/METHODOLOGY.md" role="button">Read the Methodology</a><a class="btn btn-lg btn-info" href="https://github.com/kaleida/attention-index" role="button">Contribute</a></div>
+          <div class="col-md-3"></div>
         </div>
       </div>
 
-      <footer class="footer">
-        <!--<p>&copy; 2017 Company, Inc.</p>-->
-      </footer>
+      <div class="container">
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Why</h4>
+          <p>The media ecosystem has been defined by reach, impressions, and clicks for about 20 years. Business models based on those numbers are struggling and often fail entirely. </p>
 
+          <p>We believe media has become more important in the world because of the Internet, but today's numbers aren't reflecting what matters to people.  Value is being lost, but nobody knows how much.</p>
+
+          <p>That's a problem we can fix. It starts by looking at professional media and consumers as equal contributors to one conversation.</p>
+
+          <img src="https://github.com/kaleida/attention-index/raw/master/images/kaleida-attention-index-venn-diagram.png" width="65%" class="img-responsive center-block">
+
+        </div>
+
+        <div class="col-lg-6">
+          <h4>How and what</h4>
+          <p>Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services.</p>
+
+          <img src="https://github.com/kaleida/attention-index/raw/master/images/kaleida-attention-index-data-factors-chart.png" class="img-responsive center-block">
+        </div>
+
+        <div class="col-lg-12">
+          <h4>Documentation</h4>
+          <ul>
+          <li>We've published our work in a <a href="http://nbviewer.jupyter.org/github/kaleida/attention-index/blob/master/data/attention-index.ipynb">python jupyter notebook</a>. That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.</li>
+
+          <li>You are encouraged to apply our approach to developing the Attention Index. The <a href="../docs/METHODOLOGY.md">methodology</a> provides detail about what the data means, how it was collected and what we're doing with it.</li>
+        </ul>
+
+          <h4>Creative Commons</h4>
+          <ul>
+          <li>The <strong>Attention Index</strong> data is made available by Kaleida Networks Ltd. to the public under a Creative Commons license (<a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a>) including permission for commercial use. You are explicitly encouraged to use and share the data. We just ask that you give us attribution.</li>
+        </ul>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>Feel free to <a href="mailto:matt@kaleida.com">send us an email</a> if you have any questions about the data or usage.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div><!-- /container -->
+<br>
+    <div class="container-fluid footer">
+      <div class="footer-box">
+        <div class="col-md-4">
+          <h4>About Kaleida and The Attention Index</h4>
+          <p>Kaleida is a media research company. We sell data and analysis about the attention economy to companies who do business in the media ecosystem.</p>
+
+          <p>The Attention Index needed to exist in order for us to build the type of company we wanted to run. And the only sensible way to make the Attention Index a standard in the market was to release the data and methodology openly and to invite partners to collaborate on making it useful.</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <h4>How to Get Involved</h4>
+          <ul class="footer-list">
+          <li><a href="../data">Download Data</a></li>
+          <li><a href="../docs/METHODOLOGY.md">Methodology</a></li>
+          <li><a href="https://github.com/kaleida/attention-index">Contribute</a></li>
+          <p></p>
+          <li><a href="https://www.kaleida.com/aboutus">Contact Us</a></li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+          <p>The Attention Index is a<br>Kaleida Open Source Project</p>
+          <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+        </div>
+      </div>
     </div> <!-- /container -->
 
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
