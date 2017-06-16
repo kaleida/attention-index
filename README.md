@@ -1,16 +1,16 @@
 # [Attention Index](https://kaleida.github.io/attention-index/)
 
-The Attention Index is a measurement standard that scores activity across the media ecosystem.
+The Attention Index is a measurement standard that scores activity across the media ecosystem. The project was iniated by the team at [Kaleida](https://www.kaleida.com), a media research and data company based out of the UK.
 
-## [Data](../data)
+## [Data](/data)
 
-The data is available as CSVs in monthly batches. You can download the full data and use it for your needs.
+The data is available as CSVs in monthly batches. You can download the [full data](../data) and use it for your needs.
 
-## [Methodology](../docs/METHOLOGY.md)
+## [Methodology](/docs/METHOLOGY.md)
 
-We've published detailed notes about the approach used to identify the model. You are encouraged to apply our methodology to developing the Attention Index. Notes include information about what the data means, how it was collected and what we're doing with it.
+We've published [a summary and notes](/docs/METHOLOGY.md) about the approach used to identify the model. You are encouraged to apply our methodology to developing the Attention Index. Notes include information about what the data means, how it was collected and what we're doing with it.
 
-You can follow our process in the [python jupyter notebook](http://nbviewer.jupyter.org/github/kaleida/attention-index/blob/master/data/attention-index.ipynb). That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.
+You can also see the model exploration in detail via a [python jupyter notebook](http://nbviewer.jupyter.org/github/kaleida/attention-index/blob/master/data/attention-index.ipynb). That document goes step-by-step through our data explorations detailing how we arrived at these results. It includes the exploratory analysis, charts, data tables, statistics and the resulting formulas.
 
 
 ## Contributing
