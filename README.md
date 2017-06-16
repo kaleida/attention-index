@@ -1,6 +1,6 @@
-# [Attention Index](https://kaleida.github.io/attention-index/)
+# [The Attention Index](https://kaleida.github.io/attention-index/)
 
-The Attention Index is a measurement standard that scores activity across the media ecosystem. The project was iniated by the team at [Kaleida](https://www.kaleida.com), a media research and data company based out of the UK.
+The Attention Index is a standard for measuring activity across the media ecosystem. The project was initiated by the team at [Kaleida](https://www.kaleida.com), a media research and data company based out of the UK.
 
 ## [Data](/data)
 
