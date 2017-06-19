@@ -1,7 +1,7 @@
 
 ## DEFINITIONS ##
 
-If you download the data you'll find several fields. Many of them are self-explanatory. Some are specific to the Attention Index. Below are the field names and descriptions that should clarify what the values mean. You can also read more about how the [methodology](METHODLOGY.md) and how the figures are calculated
+If you [download the data](../data) you'll find several fields in each CSV. Many of them are self-explanatory. Some are specific to the **Attention Index**. Below are the field names and descriptions that should clarify what the values mean. You can also read more about the [methodology](METHODOLOGY.md) and how the figures are calculated
 
 | Field        | Description |
 | ------------- |-------------|
