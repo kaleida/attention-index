@@ -2,16 +2,16 @@
 
 ## SUMMARY ##
 
-<img src="images/kaleida-attention-index-venn-diagram.png" width="300" align="right" hspace="10">**Kaleida's Attention Index** is a measure of observed interest in subjects. The index is derived using publicly available data from global news media and social platforms.
+<img src="../images/kaleida-attention-index-venn-diagram.png" width="300" align="right" hspace="10">**Kaleida's Attention Index** is a measure of observed interest in subjects. The index is derived using publicly available data from global news media and social platforms.
 
-Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services as described below.
+Publisher data and social data are combined to arrive at an overall Attention Score. We obtain this data using a range of tools to process the data including our own homegrown applications and 3rd party data processing services as described below. The data is then scored and ranked by an algorithm which is described in detail via a [python jupyter notebook](http://nbviewer.jupyter.org/github/kaleida/attention-index/blob/master/data/attention-index.ipynb). The data is available for [download](../data) and reusable via an open license.
 
-<img src="images/kaleida-attention-index-data-factors-chart.png">
+<img src="../images/kaleida-attention-index-data-factors-chart.png">
 
 
 ## METHODOLOGY ##
 
-You are encouraged to apply our approach to developing the Attention Index. The following methodology provides detail about what the data means, how it was collected and what we're doing with it.
+You are encouraged to apply our approach to developing Attention Scores for your own needs. The following methodology provides detail about what the data means, how it was collected and what we're doing with it.
 
 The process begins by collecting published content. For each publisher in our list our crawlers scan publisher home pages, Google sitemaps and Facebook brand pages to identify URLs. We look at URL patterns for each publisher to identify content types, excluding offsite links, links to index pages or other stuff we don't care about.
 
